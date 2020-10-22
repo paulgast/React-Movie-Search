@@ -4,6 +4,7 @@ html {
 
 * {
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -15,6 +16,7 @@ body {
 
 p {
   font-size: 1.6rem;
+  text-align: justify;
 }
 
 small {
@@ -52,10 +54,10 @@ small {
 }
 
 .button {
-  background-color: rgba(0,0,0,0.75);
+  background-color: #a30000;
   color: white;
   padding: 1rem 2rem;
-  border: 1px solid rgba(0,0,0,0.75);
+  border: 1px solid #520202;
   border-radius: 20px;
   font-size: 1.4rem;
   cursor: pointer;
@@ -63,7 +65,7 @@ small {
 }
 
 .button:hover {
-  background-color: rgba(0,0,0,0.85);
+  background-color: #520202;
 }
 
 @media (min-width:786px){
@@ -97,5 +99,6 @@ small {
 
 .card--image {
   margin: 0 auto;
-  display: block
+  display: block;
+  border: 1px solid black
 }
