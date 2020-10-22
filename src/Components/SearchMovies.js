@@ -14,8 +14,8 @@ export default function SearchMovies(){
         try {
             const res = await fetch(url);
             const data = await res.json();
-            console.log(data);
             setMovies(data.results);
+            console.log (data)
         } catch(err) {
             console.log(err);
         } 
@@ -28,5 +28,4 @@ export default function SearchMovies(){
             <button className="button" type="submit">Search</button>
         </form>
     )
-
 }
