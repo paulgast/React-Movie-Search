@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './Components/SearchMovies'
+import SearchMovies from './Components/SearchMovies';
 
 class Main extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class Main extends React.Component {
 ReactDOM.render(
   <React.StrictMode>
     <Main/>
+    <SearchMovies/>
   </React.StrictMode>,
   document.getElementById('root')
 );
