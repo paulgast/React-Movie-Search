@@ -17,10 +17,13 @@ body {
 p {
   font-size: 1.6rem;
   text-align: justify;
+  line-height: 25px;
 }
 
 small {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  line-height: 0px;
+  color: #707070;
 }
 
 .container {
@@ -100,5 +103,6 @@ small {
 .card--image {
   margin: 0 auto;
   display: block;
-  border: 1px solid black
+  border: 1px solid black;
+  box-shadow: 0px 8px 8px -6px black;
 }
